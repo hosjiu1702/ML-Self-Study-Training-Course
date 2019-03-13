@@ -1,5 +1,5 @@
 ### ML-Self-Study-Training-Course
-This repo hosts all exercises from Andrew Ng's Course written by me.
+This repo hosts all exercises from [Andrew Ng's Course on Coursera](https://www.coursera.org/learn/machine-learning) written by me.
 
 #### Purpose
 - Exercises is written by **MATLAB/OCTAVE** and then converted to **Python** Language at all.
