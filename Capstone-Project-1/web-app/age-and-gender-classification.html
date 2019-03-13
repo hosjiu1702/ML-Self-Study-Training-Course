@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Capstone Project</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="http://malsup.github.com/jquery.form.js"></script> 
+</head>
+<body>
+
+<form id="upload-form" method="post" enctype="multipart/form-data" action="/upload">
+	<div>
+		<input type="file" id="pic" name="picture" accept="image/*" onchange="loadFile(event)">
+		<input type="submit" id="submit-button" name="submit">
+	</div>
+</form>
+
+	<div>
+		<image id="output"></br>
+	</div>
+
+<script type="text/javascript">
+	var loadFile = function(event) {
+		var output = document.getElementById('output');
+		output.src = URL.createObjectURL(event.target.files[0]);
+	};
+
+	// wait for the DOM to be loaded
+	$(document).ready(function() {
+		// bind 'upload-form' and provide a simple callback function
+		$("#upload-form").ajaxForm(function() {
+			alert('Uploaded to NodeJS server.');
+		});
+	});
+/*
+	$(document).ready(function () {
+		$("#upload-form").submit(function() {
+			var form = $(this)[0];
+			var formData = new FormData(form);
+
+			$.ajax({
+				type: "POST",
+				url: "/upload",
+				enctype: 'multipart/form-data',
+				data: formData,
+				success: function() {
+					alert('Uploaded');
+				}
+			});
+		});
+	});
+*/
+</script>
+
+</body>
+</html>

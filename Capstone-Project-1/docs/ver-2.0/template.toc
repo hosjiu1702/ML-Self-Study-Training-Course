@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scope}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Related Works}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Classification algorithms}{5}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Perceptron}{5}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Logistic Regression}{6}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Artificial Neural Network}{8}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Web Application}{10}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Frontend}{10}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Backend}{10}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Example: Dog and Cat Classfication}{10}{subsection.2.3}
+\contentsline {section}{\numberline {3}System Architecure}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}System Overall}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Fronted}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Backend}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Neural Network}{11}{subsection.3.4}
+\contentsline {section}{\numberline {4}Plan}{12}{section.4}
+\contentsline {section}{\numberline {5}References}{13}{section.5}
