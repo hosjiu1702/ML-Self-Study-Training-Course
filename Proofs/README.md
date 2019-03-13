@@ -1,2 +1,2 @@
-# Include Jupyter Notebook tutorials 
+#### Include Jupyter Notebook for proofs.
 
